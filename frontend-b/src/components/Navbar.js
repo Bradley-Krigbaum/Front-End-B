@@ -1,28 +1,34 @@
 import React from 'react';
+import SearchForm from './SearchForm';
 
 const Navbar = () => {
     return (
-    <div>
+    <>
         <section>
             <div>
                 [ LOGO HERE ]
             </div>
             <section>
                 <div>
-                    [ SEARCH BAR ]
+                    <SearchForm />
                 </div>
                 <div>
-                    [ LINK TO GUIDES ]
-                </div>
-                <div>
-                    [ FILTER ]
+                    <button>
+                        [ ADD GUIDE / LINK TO GUIDES ]
+                    </button>
+
+                    <button>
+                        [ FILTER DROP DOWN ]
+                    </button>
+                
+                    <button>
+                        [ PROFILE PAGE ]
+                    </button>
                 </div>
             </section>
-            <div>
-                [ PROFILE PAGE ]
-            </div>
+            
         </section>
-    </div>
+    </>
     );
 }
 
